@@ -13,7 +13,6 @@
 
 .resume-card img{
     width: 100%;
-    
 }
 
 .card-title{
@@ -34,7 +33,7 @@
 }
 @media screen and (max-width: 740px) {
     .resume-card-container{
-        max-width: 60%;
+        max-width: 80%;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr;
