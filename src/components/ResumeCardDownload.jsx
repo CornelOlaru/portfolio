@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ResumeCardDownloadStyle.css"
-import img1 from "../assets/resume-cover-letter-template.jpg"
+import img1 from "../assets/CVResume.png"
 
 const ResumeCardDownload = () => {
   return (
@@ -23,4 +23,4 @@ const ResumeCardDownload = () => {
   )
 }
 
-export default ResumeCardDownload
+export default ResumeCardDownload;

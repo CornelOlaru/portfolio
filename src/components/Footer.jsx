@@ -46,10 +46,11 @@ const Footer = () => {
         </div>
         <div className="right">
           <div className="company">
-            <h4>CEO at XXX company.</h4>
-            <p style={{ color: "#fff" }}>
+            <p style={{ color: "#fff" , margin: "10px" }}>
               A personal profile website made by Corneliu Olaru
             </p>
+            
+           <h4>CorneliuOlaru © 2022 ALL RIGHTS RESERVED.</h4>
           </div>
           <div className="social">
             <a

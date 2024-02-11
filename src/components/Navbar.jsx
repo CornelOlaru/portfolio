@@ -5,26 +5,28 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 const Navbar = () => {
   const [click, setClick] = useState(false);
-  const [color, setColor] = useState(false)
+  const [color, setColor] = useState(false);
 
-  
   const handleClick = () => {
     setClick(!click);
   };
-const changeColor= () => {
-  if (window.scrollY>=100) {
-    setColor(true)
-  } else {
-    setColor(false)
-  }
-}
-window.addEventListener("scroll", changeColor)
+  const changeColor = () => {
+    if (window.scrollY >= 100) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+  window.addEventListener("scroll", changeColor);
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1>Corneliu Olaru</h1>
+        <div className="logo">
+          <img src="logo-portfolio-edited.png" alt="my-logo" height="50px"/>
+          <h1>Corneliu Olaru</h1>
+        </div>
       </Link>
-      <ul className={click?("nav-menu active" ) : ("nav-menu")}>
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/About">About</Link>
         </li>

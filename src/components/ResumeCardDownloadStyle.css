@@ -34,7 +34,7 @@
 }
 @media screen and (max-width: 740px) {
     .resume-card-container{
-        max-width: 80%;
+        max-width: 60%;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr;
