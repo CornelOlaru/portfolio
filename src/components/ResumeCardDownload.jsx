@@ -12,8 +12,8 @@ const ResumeCardDownload = () => {
                 <div className='resume-details'>
                     <p>This is my Resume</p>
                     <div className='res-buttons'>
-                        <a href="https://github.com/CornelOlaru" target="_blank" rel="noopener noreferrer">  <button className='btn'>GitHub</button></a>
-                        <a href="Corneliu Olaru Resume.pdf" download="Resume Corneliu Olaru.pdf"><button className='btn'>Download</button></a>
+                        <a href="https://github.com/CornelOlaru"  rel="noopener noreferrer">  <button className='btn'>GitHub</button></a>
+                        <a href="https://drive.google.com/file/d/1P4yAv2QLAQnp_uJEtzlxABce_VRbcwHm/view?usp=sharing"><button className='btn'>View</button></a>
                     </div>
                 </div>
             </div>
